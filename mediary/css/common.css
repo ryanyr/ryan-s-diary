@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+body{width:100%;}
+html{max-width:100%;overflow-x:hidden;}
+textarea{ resize:none;}
+img{ margin-top:12px; -webkit-box-shadow:5px 5px 5px #999; -moz-box-shadow:5px 5px 5px #999; box-shadow:5px 5px 5px #999;}
+a:hover{ text-decoration:none; color:#35509F;}
+.music_recommed li{ list-style:none; margin:10px auto 20px auto;}
+.music_recommed li img{ margin-top:12px;}
+.music_part{ padding-left:40px;}
+#content{ resize:none;}
+.right_part{ background:#CCC; text-align:left; padding:10px; min-height:455px !important; overflow:hidden; -webkit-box-shadow:5px 5px 5px #999; -moz-box-shadow:5px 5px 5px #999; box-shadow:5px 5px 5px #999;}
+.right_part img{ display:block; text-align:center; margin-left:auto; margin-right:auto;}
+#_list li{ border-bottom:#CCC dashed 1px; margin-bottom:20px;}
+pre{ border:none;}
+#user_intro{ background:none; text-align:left; padding:0;}
+/*user info*/
+ .control-label{width:auto !important;}
+ .controls{ margin-left:0px;}
+#user_intro_defy{ height:150px; width:350px;}
+/*music*/
+iframe{ border:none; min-height:300px !important;}

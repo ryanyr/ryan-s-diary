@@ -1,0 +1,12 @@
+{
+  "main": "index.html",
+  "name": "ryan's diary",
+  "description": "Diary of node-webkit",
+  "window": {
+    "toolbar": false,
+    "icon": "icon.png"
+  },
+  "webkit": {
+    "plugin": true
+  }
+}

@@ -1,0 +1,46 @@
+<meta charset="utf-8">
+<link rel="stylesheet" href="yplayer.css">
+<title>Chrome 下的本地音乐播放器 - Yplayer Local</title>
+<div id="yplayer">
+	<div id="topnav">
+		<div id="options">
+			<a id="play" title="指定文件夹" href="#" style="background-image:url('Add.png');"></a>
+			<a id="next" title="下一曲" href="#" style="background-image:url('Right.png');"></a>
+			<a id="menu" title="菜单" href="#" style="background-image:url('Music.png');"></a>
+			<div id="childmenu" style="display:none;">
+				<a href="#" title="列表选项" id="listoption" style="background-image:url('List.png')"></a>
+				<a href="#" title="播放选项" id="playeroption" style="background-image:url('Music Player.png');"></a>
+			</div>
+			<div id="listoptionmenu" style="display:none;">
+				<a href="#" title="列表居左" id="listalignl">列表居左</a>
+				<a href="#" title="列表居中" id="listalignc">列表居中</a>
+				<a href="#" title="列表居右" id="listalignr">列表居右</a>
+				<a href="#" title="重绘列表" id="listredraw">重绘列表</a>
+			</div>
+			<div id="playeroptionmenu" style="display:none;">
+				<a href="#" title="切换随机状态" id="toggleshuffle" style="background-image:url('Remove.png');">随机</a>
+				<a href="#" title="切换循环状态" id="toggleloop" style="background-image:url('Delete.png');">循环</a>
+			</div>
+			<span id="nowitem">YPlayer</span>
+			<span id="volumebar" title="音量"><span id="volume"></span></span>
+			<span id="time">00:00/00:00</span>
+		</div>
+		<div id="progress">
+			<span id="now"></span>
+		</div>
+	</div>
+	<ul id="playlist"></ul>
+	<input type="file" id="file" webkitdirectory multiple>
+</div>
+<script type="text/javascript" src="jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="easyanim.min.js"></script>
+<script type="text/javascript" src="mousetrap.min.js"></script>
+<script type="text/javascript" src="yplayer.dev.js"></script>
+<script type="text/javascript">
+	window.onload = function(){
+		Y.init();
+	};
+	document.body.onselectstart = function(){
+		return false;
+	};
+</script>

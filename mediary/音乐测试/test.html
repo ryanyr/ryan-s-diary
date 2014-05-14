@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Music &middot;Ryan's Diary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<script src="js/jquery.js"></script>
+    <script src="js/user.js"></script>
+    <script src="js/music.js"></script>
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="ico/favicon.png">
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li><a href="write.html"><i class="icon-book"></i> 开始记录</a></li>
+          <li><a href="history.html"><i class=" icon-list-alt"></i> 过往点滴</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class=" icon-th-list"></i> 其他 <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+				<li><a href="music.html"><i class="icon-music"></i> 音乐</a></li>
+                <li><a href="game.html"><i class="icon-plane"></i> 游戏</a></li>
+                <li class="divider"></li>
+                <li><a href="ryan.html"><i class="icon-eye-open"></i> 丸子？</a></li>
+			</ul></li>
+          <li class="active"><a href="user.html"><i class=" icon-user"></i> 欢迎回来！<span id="user_name">Ryan</span></a></li>
+        </ul>
+        <h3 class="muted"><a href="index.html">Ryan's Diary</a></h3>
+        
+      </div>
+
+      <hr>
+      
+    <div class="row-fluid marketing">
+      <div class="music_part">
+      <p class="text-info">或是先听首歌？虽然只有七首，但都值得尝试一下。</p>
+      <p class="text-success"><a href="http://douban.fm/">觉得不够的话，点这里（如果你能联网）</a></p>
+      <audio autoplay="true" controls loop src="Departure 浪客剑心.OGG"></audio>
+      </div>
+        <div class="span12">
+        <ul class="music_recommed">
+          <li>
+          <span class="span2"><a href="#"><img src="img/bird.jpg" width="100" height="100"></a></span>
+          <div class="span10">
+          <h4><a id="audio1" href="#" rel="resource/孙燕姿 - 咕叽咕叽.OGG">咕叽咕叽</a></h4>
+          <p>我们都好，我们都是鸟，冬天飞向南方的怀抱。</p>
+          <p>谁比谁好，能差到多少，迟早都要向上帝报到。</p>
+          <p>不自找烦恼，放手大笑。</p>
+          </div>
+          </li>
+          
+		  <li> 	
+          <span class="span2"><a href="#"><img src="img/memo.jpg" width="100" height="100"></a></span>
+          <div class="span10">
+          <h4><a id="audio2" href="#" rel="resource/sonsofday-oceans deep.OGG">Oceans Deep</a></h4>
+          <p>Although alive and without much.</p>
+          <p>The wishing, well I wished for you.</p>
+          <p>Then I look to see myself within it all.</p>
+          </div>
+          </li>
+		  
+          <li>
+          <span class="span2"><a href="#"><img src="img/ballon.jpg" width="100" height="100"></a></span>
+          <div class="span10">
+          <h4><a id="audio3" href="#" rel="resource/梁静茹 - 三寸日光.OGG">三寸日光</a></h4>
+          <p>你说，秋天掌上的日光，一寸能许一个愿望。</p>
+          <p>还想每天用咖啡香不让你赖床，周末傍晚骑着单车逛黄昏市场。</p>
+          <p>我们的愿望，紧握不放。</p>
+          </div>
+          </li>
+          
+          <li> 	
+          <span class="span2"><a href="#"><img src="img/departure.jpg" width="100" height="100"></a></span>
+          <div class="span10">
+          <h4><a id="audio4" href="#" rel="resource/Departure 浪客剑心.OGG">Departure</a></h4>
+          <p>春は夜桜、夏には星、 秋に満月、冬には雪。</p>
+          <p>それで十分酒は美味い。</p>
+          <p>それでも不味いんなら、それは 自分自身の何かが病んでる证だ。</p>
+          </div>
+          </li>
+          
+          <li> 	
+          <span class="span2"><a href="#"><img src="img/myself.jpg" width="100" height="100"></a></span>
+          <div class="span10">
+          <h4><a id="audio5" href="#" rel="resource/daniel powter - best of me.OGG">Best Of Me</a></h4>
+          <p>You know I’m hoping you’ll sing along,</p>
+          <p>Though it’s not your favorite song,</p>
+          <p>Don’t want to be there when there’s nothing left to say.</p>
+          </div>
+          </li>
+          
+          <li> 	
+          <span class="span2"><a href="#"><img src="img/street.jpg" width="100" height="100"></a></span>
+          <div class="span10">
+          <h4><a id="audio6" href="#" rel="resource/孤单心事.OGG">孤单心事</a></h4>
+          <p>雨下在我窗前，玻璃也在流眼泪，街上的人都看起来，比我幸福一点。</p>
+          <p>我猜不到你真正的感觉，思念写成脸上的黑眼圈。</p>
+          <p>爱你是孤单的心事。</p>
+          </div>
+          </li>
+          
+          <li> 	
+          <span class="span2"><a href="#"><img src="img/flow.jpg" width="100" height="100"></a></span>
+          <div class="span10">
+          <h4><a id="audio7" href="#" rel="resource/怎样 戴佩妮.OGG">怎样</a></h4>
+          <p>我这里天快要黑了，那你呢。</p>
+          <p>我这里天气凉凉的，那你呢。</p>          
+          <p>我这里一切都变了，我变的懂事了，我又开始写日记了，而那你呢？</p>
+          </div>
+          </li>
+          
+          
+        </ul>  
+        
+        
+        </div>
+
+        
+      </div>
+      
+      
+    
+      
+	  
+      
+      
+      
+
+      <hr>
+
+      <div class="footer span12">
+        <p>&copy; 丸子鱼 >°)))>彡  2013</p>
+      </div>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>

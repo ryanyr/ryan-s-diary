@@ -1,0 +1,10 @@
+{
+  "main": "test.html",
+  "name": "ryan's diary",
+  "window": {
+    "toolbar": false
+  },
+  "webkit": {
+    "plugin": true
+  }
+}
